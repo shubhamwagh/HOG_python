@@ -99,7 +99,6 @@ class HistogramOfGradients:
     def _compute_hog_per_cell(self, magnitudes: np.ndarray, orientations: np.ndarray) -> np.ndarray:
         """
         Compute 1 HOG feature of a cell. Return a row vector of size `n_orientations`
-        :param n_orientations: number of orientations
         :param magnitudes: Gradient magnitude image
         :param orientations: Gradient orientation image
         :return: hog features per cell
