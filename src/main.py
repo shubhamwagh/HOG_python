@@ -1,7 +1,4 @@
-# HOG_python
-### Histogram of Gradients in Python from scratch
-
-```python
+import skimage.io
 from skimage import color, data
 import matplotlib.pyplot as plt
 
@@ -45,11 +42,3 @@ if __name__ == "__main__":
     ax3.imshow(hog_image_scikit, cmap=plt.get_cmap('gray'))
     ax3.set_title('Scikit HOG')
     plt.show()
-```
-
-## Result
-
-<img src="./examples/HOG_implementation.png" width="700">
-<img src="./examples/Hog_car.png" width="700">
-<img src="./examples/HOG_people.png" width="700">
-
