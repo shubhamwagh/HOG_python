@@ -1,8 +1,7 @@
-import skimage.io
 from skimage import color, data
 import matplotlib.pyplot as plt
 
-from hog import HistogramOfGradients
+from HOG_python.hog import HistogramOfGradients
 
 if __name__ == "__main__":
     from skimage.feature import hog
