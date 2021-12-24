@@ -53,3 +53,11 @@ if __name__ == "__main__":
 <img src="./examples/Hog_car.png" width="700">
 <img src="./examples/HOG_people.png" width="700">
 
+## References
+
+[1] http://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf
+
+
+[2] [HOG Image rendering](https://github.com/scikit-image/scikit-image/blob/main/skimage/feature/_hog.py#L245-L265)
+
+[3] [HOG bin distribution](https://courses.cs.duke.edu/compsci527/fall15/notes/hog.pdf)
