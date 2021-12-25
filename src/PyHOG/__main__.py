@@ -2,7 +2,7 @@ import sys
 from skimage import color, data
 import matplotlib.pyplot as plt
 
-from HOG_python.hog import HistogramOfGradients
+from PyHOG.hog import HistogramOfGradients
 
 def main(args=None):
     from skimage.feature import hog
