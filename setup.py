@@ -15,7 +15,7 @@ license = (here / 'LICENSE.txt').read_text(encoding='utf-8')
 
 setup(
     name='hogpylib',
-    version='1.0.1',
+    version='1.0.2',
     description='Histogram of Gradients in Python from scratch',
     url='https://github.com/shubhamwagh/HOG_python',
     long_description=long_description,
