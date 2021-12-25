@@ -14,7 +14,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 license = (here / 'LICENSE.txt').read_text(encoding='utf-8')
 
 setup(
-    name='PyHOG',
+    name='hogpylib',
     version='1.0.0',
     description='Histogram of Gradients in Python from scratch',
     url='https://github.com/shubhamwagh/HOG_python',
@@ -48,7 +48,7 @@ setup(
     data_files=[('data', ['data/car.jpg', 'data/people.jpg']), ('examples', ['examples/Hog_car.png', 'examples/HOG_people.png', 'examples/HOG_implementation.png'])],
     entry_points={
         'console_scripts': [
-            'PyHOG=PyHOG.__main__:main',
+            'hogpylib=hogpylib.__main__:main',
         ],
     },
 )
