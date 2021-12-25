@@ -1,9 +1,10 @@
+import sys
 from skimage import color, data
 import matplotlib.pyplot as plt
 
 from HOG_python.hog import HistogramOfGradients
 
-if __name__ == "__main__":
+def main(args=None):
     from skimage.feature import hog
 
     PIXELS_PER_CELL = (8, 8)
@@ -41,3 +42,9 @@ if __name__ == "__main__":
     ax3.imshow(hog_image_scikit, cmap=plt.get_cmap('gray'))
     ax3.set_title('Scikit HOG')
     plt.show()
+
+
+if __name__ == "__main__":
+    sys.exit(main())
+
+
