@@ -54,10 +54,9 @@ if __name__ == "__main__":
 
 ## Result
 
-![](https://github.com/shubhamwagh/HOG_python/raw/main/examples/HOG_implementation.png =700x)
-![](https://github.com/shubhamwagh/HOG_python/raw/main/examples/HOG_people.png =700x)
-![](https://github.com/shubhamwagh/HOG_python/raw/main/examples/Hog_car.png =700x)
-
+<img src="https://github.com/shubhamwagh/HOG_python/raw/main/examples/HOG_implementation.png" width="700">
+<img src="https://github.com/shubhamwagh/HOG_python/raw/main/examples/HOG_people.png" width="700">
+<img src="https://github.com/shubhamwagh/HOG_python/raw/main/examples/Hog_car.png" width="700">
 
 ## References
 
